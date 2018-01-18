@@ -1,4 +1,4 @@
-package Metier;
+package metier;
 
 public class Article {
 	
@@ -44,6 +44,6 @@ public class Article {
 		TVA = tVA;
 	}
 
-	// Méthodes
+	// Mï¿½thodes
 
 }

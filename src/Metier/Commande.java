@@ -1,4 +1,4 @@
-package Metier;
+package metier;
 
 import java.util.Date;
 import java.util.List;
@@ -48,4 +48,4 @@ public class Commande {
 	}
 }
 
-// Méthodes
+// Mï¿½thodes

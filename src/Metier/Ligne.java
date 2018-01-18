@@ -1,11 +1,11 @@
-package Metier;
+package metier;
 
 public class Ligne {
 	// Attributs + accesseurs
 	
 	private byte Id;
 	private Article Article;
-	private boolean Payé;
+	private boolean Paye;
 
 	public byte getId() {
 		return Id;
@@ -23,12 +23,12 @@ public class Ligne {
 		Article = article;
 	}
 
-	public boolean isPayé() {
-		return Payé;
+	public boolean isPaye() {
+		return Paye;
 	}
 
-	public void setPayé(boolean payé) {
-		Payé = payé;
+	public void setPaye(boolean paye) {
+		Paye = paye;
 	}
 
 	// Constructeurs
@@ -37,11 +37,11 @@ public class Ligne {
 
 	}
 
-	public Ligne(byte id, Metier.Article article, boolean payé) {
+	public Ligne(byte id, metier.Article article, boolean paye) {
 		super();
 		Id = id;
 		Article = article;
-		Payé = payé;
+		Paye = paye;
 	}
 
 	// Methodes
