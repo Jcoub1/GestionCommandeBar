@@ -1,0 +1,68 @@
+body
+{
+	background-image:linear-gradient(#d59c12, brown);
+	
+}
+
+body *
+{
+	margin: auto;
+	padding: auto;
+	border: 1px solid transparent;
+
+
+}
+
+.container
+{
+	height: 720px;
+	width:720px;
+	margin: 1.5% auto ;
+	background-image: url('../img/FondCommande.jpg');
+	box-shadow: -8px -8px 8px black; 
+}
+
+.Rinitial, .IconBoisson
+{
+	height: 720px;
+}
+
+.liste, .liste *
+{
+	height:520px;
+}
+
+.prix
+{
+	height: 70px;
+}
+
+.EntreListePrix, .avantListe
+{
+	height: 50px;
+}
+
+.label div
+{
+	text-decoration: underline;
+}
+
+.btn, .btn-goup
+{
+	margin-top: 12.5px;
+	
+}
+
+.IconBoissonIndex
+{
+	margin-left: -25px; 
+
+}
+
+.IconBoissonIndex div
+{
+	padding: auto;
+}
+
+
+
