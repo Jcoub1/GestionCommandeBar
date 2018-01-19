@@ -1,0 +1,41 @@
+body *
+{
+	margin: auto;
+	padding: auto;
+	border: 1px solid transparent;
+}
+
+body
+{
+	background-image:linear-gradient(#d59c12, brown);
+	height: 100%;
+}
+
+.container
+{
+	height: 720px;
+	width:720px;
+	margin: 1.5% auto ;
+	background-image: url('../img/FondBarSalle.jpg');
+	box-shadow: -8px -8px 8px black; 
+}
+
+a
+{
+	vertical-align: middle;
+	text-align: center;
+}
+
+
+.rtop
+{
+	margin-top: 15%;
+}
+
+.row
+{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+}
+
